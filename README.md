@@ -5,6 +5,7 @@ Arduino library for communicating with XBees in API mode, with support for both 
 
 ## News
 
+* 11/18/15 Matthijs Kooijman's new book, [Building Wireless Sensor Networks Using Arduino](http://www.amazon.com/gp/product/1784395587/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1784395587&linkCode=as2&tag=xbapra-20&linkId=CEH23GT6ZPOT4ZH4) is now available. He covers the fundamentals of working with XBees in API mode, including some advanced topics (encryption, security, sleep), as well as creating projects with this library.
 * 9/15/15 Matthijs Kooijman has contributed numerous enhancements to the library, including callbacks, enhanced debugging, added features and bug fixes! These can be found in the 0.6.0 release.
 * 2/28/15 The code is now on github, although some documentation is still on googlecode https://code.google.com/p/xbee-arduino/
 * 2/1/14 Release 0.5 is available. This is essentially the 0.4 Software Serial release with a bug fix or two. If upgrading from a version prior to 0.4, please note that the method for specifying the serial port has changed; see See SoftwareSerialReleaseNotes. Along with this release I have converted the repository from Subversion to Git
@@ -20,6 +21,11 @@ Arduino library for communicating with XBees in API mode, with support for both 
 ## Documentation
 Doxygen API documentation is available in the downloads. Unfortunately it is not available online anymore as Git does not support the html mime type as Subversion does
 
+[Developer's Guide](https://github.com/andrewrapp/xbee-arduino/blob/wiki/DevelopersGuide.md)
+
+[XBee API (Java) Project](https://github.com/andrewrapp/xbee-api) Although this project is a Java implementation, it contains a few wikis relevant to this project, including xbee configuration and use cases.
+
+[Google Group](https://groups.google.com/forum/#!forum/xbee-api)
 
 ## Example
 I have created several sketches of sending/receiving packets with Series 1 and 2 XBee radios. You can find these in the examples folder. Here's an example of sending a packet with a Series 2 radio:
@@ -55,11 +61,12 @@ To add XBee support to a new sketch, add "#include <XBee.h>" (without quotes) to
 ## Learning/Books
 Check out these books to learn more about Arduino and XBee:
 
-* Wireless Sensor Networks: with ZigBee, XBee, Arduino, and Processing (Available in Kindle)
-* Programming Arduino Getting Started with Sketches
-* Making Things Talk
-* Getting Started with Arduino (Make: Projects (Available in Kindle)
-* Arduino Cookbook (Oreilly Cookbooks) (Available in Kindle)
+  * [Building Wireless Sensor Networks Using Arduino](http://www.amazon.com/gp/product/1784395587/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1784395587&linkCode=as2&tag=xbapra-20&linkId=CEH23GT6ZPOT4ZH4) (Kindle version available)
+  * [Wireless Sensor Networks: with ZigBee, XBee, Arduino, and Processing](http://www.amazon.com/gp/product/0596807732?ie=UTF8&tag=xbapra-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0596807732Building) (Kindle version available)
+  * Programming Arduino Getting Started with Sketches
+  * Making Things Talk
+  * Getting Started with Arduino (Make: Projects (Available in Kindle)
+  * Arduino Cookbook (Oreilly Cookbooks) (Available in Kindle)
 
 ## Hardware
 
